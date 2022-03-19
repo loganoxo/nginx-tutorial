@@ -39,7 +39,7 @@ cd C:\nginx-0.8.54 start nginx
 
 ### Linux 安装
 
-#### rpm 包方式（推荐）
+#### 1、rpm 包方式（推荐）
 
 （1）进入[下载页面](http://nginx.org/packages/)，选择合适版本下载。
 
@@ -68,7 +68,7 @@ $ firewall-cmd --zone=public --add-port=80/tcp --permanent
 $ firewall-cmd --reload
 ```
 
-#### 源码编译方式
+#### 2、源码编译方式
 
 ##### 安装编译工具及库
 
